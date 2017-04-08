@@ -1,3 +1,6 @@
+var React = require('react');
+var ReactDOM = require('react-dom');
+
 var GreeterMessage = React.createClass({
   render: function () {
     var name = this.props.name;
@@ -45,7 +48,7 @@ var GreeterForm = React.createClass({
           <div>
             <button>Submit</button>
           </div>
-    
+
         </form>
       );
     }
