@@ -1,4 +1,4 @@
-module.exports = {
+webpackmodule.exports = {
   entry: './public/app.jsx',
   output: {
     path: __dirname,
